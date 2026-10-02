@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+nav {
+    display: flex;
+    justify-content:flex-end;
+    height: 100px;
+    align-items: center;
+}
+nav ul {
+    display:flex;
+    list-style-type: none;
+}
+nav ul li a {
+    margin-right: 90px;
+    margin-left: 60px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: #ffffffff;
+}
+header {
+    height: 950px;
+    background-image:url("../../../../Fall work 2026 Nossi /Wed 2/WD195-01/img/Tequila Don Julio.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+h1{
+    color: #ffffffff;
+    
+}
+
+
+
+
+
+
+
+
+
