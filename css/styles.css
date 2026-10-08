@@ -26,20 +26,32 @@ nav ul li a {
 }
 header {
     height: 950px;
-    background-image:url("../../../../Fall work 2026 Nossi /Wed 2/WD195-01/img/Tequila Don Julio.jpeg");
+    background-image:url(../img/TequilaDonJulio.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
 }
 h1{
-    color: #ffffffff;
-    
+    color: #fff;
 }
 
+.card-container {
+    max-width: 1000px;
+    margin: 0 auto;
 
-
-
-
+}
+.card {
+    width: 300px;
+    padding: 2rem 1rem;
+    border-radius: 2px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    align-items: center;
+}
+.card h2 {
+    color: #ffffffff;
+    margin: 1rem;
+}
 
 
 
